@@ -14,6 +14,8 @@
 ```
 # git语法
 ```
+git init
+
 git pull --rebase origin master  Md文件
 git remote add origin git@github.com:yourusername/test.git
 git push --set-upstream https://github.com/weichenji889/mpvue.git master
@@ -26,4 +28,13 @@ git remote add origin https://github.com/weichenji889/mpvue2.git
 git push -u origin master
 
 git remote show
+
+git remote show origin
+
+git commit -am 'ti shi xin xi'
+
+git config --local user.email '1391150894@qq.com'
+
+git config --local user.name 'weichenji'
+ 
 ```
